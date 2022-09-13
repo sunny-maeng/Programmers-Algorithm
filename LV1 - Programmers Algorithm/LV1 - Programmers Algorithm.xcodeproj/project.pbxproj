@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4171E95F28D0171E00BE097F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4171E95E28D0171E00BE097F /* main.swift */; };
+		4171E95F28D0171E00BE097F /* 나머지가 1이 되는 수 찾기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4171E95E28D0171E00BE097F /* 나머지가 1이 되는 수 찾기.swift */; };
+		4171E96628D01A4C00BE097F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4171E96528D01A4C00BE097F /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,8 @@
 
 /* Begin PBXFileReference section */
 		4171E95B28D0171E00BE097F /* LV1 - Programmers Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LV1 - Programmers Algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4171E95E28D0171E00BE097F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4171E95E28D0171E00BE097F /* 나머지가 1이 되는 수 찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "나머지가 1이 되는 수 찾기.swift"; sourceTree = "<group>"; };
+		4171E96528D01A4C00BE097F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 		4171E95D28D0171E00BE097F /* LV1 - Programmers Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				4171E95E28D0171E00BE097F /* main.swift */,
+				4171E95E28D0171E00BE097F /* 나머지가 1이 되는 수 찾기.swift */,
+				4171E96528D01A4C00BE097F /* main.swift */,
 			);
 			path = "LV1 - Programmers Algorithm";
 			sourceTree = "<group>";
@@ -120,7 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4171E95F28D0171E00BE097F /* main.swift in Sources */,
+				4171E95F28D0171E00BE097F /* 나머지가 1이 되는 수 찾기.swift in Sources */,
+				4171E96628D01A4C00BE097F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

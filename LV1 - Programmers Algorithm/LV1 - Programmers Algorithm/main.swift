@@ -1,32 +1,23 @@
 /*
- 나머지가 1이 되는 수 찾기
- 월간 코드 챌린지 시즌3
- https://school.programmers.co.kr/learn/courses/30/lessons/87389
+ 짝수와 홀수
+ https://school.programmers.co.kr/learn/courses/30/lessons/12937
+ 정수 num이 짝수일 경우 "Even"을 반환하고 홀수인 경우 "Odd"를 반환하는 함수
+ num은 int 범위의 정수입니다.
+ 0은 짝수입니다.
  */
 
 import Foundation
 
-func solution(_ n: Int) -> Int {
-    for divisor in 1...n {
-        if n % divisor == 1 {
-            return divisor
-        }
-    }
-    
-    return n
+func solution(_ num:Int) -> String {
+    return num % 2 == 0 ? "Even" : "Odd"
 }
 
-func solution2 (_ n: Int) -> Int {
-    var answer = 1
-
-    while n % answer != 1 {
-        answer += 1
+func solution2(_ num:Int) -> String {
+    if num % 2 == 0 {
+        return "Even"
+    } else {
+        return "Odd"
     }
-    return answer
 }
 
 
-print(solution(2))
-print(solution2(2))
-print(solution(11))
-print(solution2(11))
