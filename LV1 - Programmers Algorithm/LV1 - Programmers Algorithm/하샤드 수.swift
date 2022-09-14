@@ -11,7 +11,7 @@ func solution(_ x:Int) -> Bool {
     return x % sum == 0
 }
 
-//String체로 reduce 가능
+// 2. mapping없이 String체로 reduce 메서드를 사용할 수 있다. reduce 안의 클로저에서 Int로 수정해줘야한다
 func solution2(_ x:Int) -> Bool {
     return x % String(x).reduce(0, {$0+Int(String($1))!}) == 0
 }
