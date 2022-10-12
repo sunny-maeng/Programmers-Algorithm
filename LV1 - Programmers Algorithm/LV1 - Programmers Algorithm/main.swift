@@ -9,3 +9,9 @@ import Foundation
 
 
 
+let a = "01033334444"
+print(solution2(a))
+
+
+let b = a.suffix(4)
+print(b)
