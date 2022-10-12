@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		416F85B928F6E608003F1F8B /* 문자열 내림차순으로 배치하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416F85B828F6E608003F1F8B /* 문자열 내림차순으로 배치하기.swift */; };
+		416F85BB28F6ECB3003F1F8B /* 문자열 다루기 기본.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416F85BA28F6ECB3003F1F8B /* 문자열 다루기 기본.swift */; };
 		41E3BD5128F56A0400FD05D5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E3BD5028F56A0400FD05D5 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		416F85B228F6AE6D003F1F8B /* 수박수박수박수박.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "수박수박수박수박.swift"; sourceTree = "<group>"; };
 		416F85B628F6E4E9003F1F8B /* 내적.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "내적.swift"; path = "../../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/LV1 - Programmers Algorithm/LV1 - Programmers Algorithm/내적.swift"; sourceTree = "<group>"; };
 		416F85B828F6E608003F1F8B /* 문자열 내림차순으로 배치하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열 내림차순으로 배치하기.swift"; sourceTree = "<group>"; };
+		416F85BA28F6ECB3003F1F8B /* 문자열 다루기 기본.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열 다루기 기본.swift"; sourceTree = "<group>"; };
 		4171E95B28D0171E00BE097F /* LV1 - Programmers Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LV1 - Programmers Algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4171E95E28D0171E00BE097F /* 나머지가 1이 되는 수 찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "나머지가 1이 되는 수 찾기.swift"; sourceTree = "<group>"; };
 		4171E96528D01A4C00BE097F /* 짝수와 홀수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "짝수와 홀수.swift"; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				416F85B228F6AE6D003F1F8B /* 수박수박수박수박.swift */,
 				416F85B628F6E4E9003F1F8B /* 내적.swift */,
 				416F85B828F6E608003F1F8B /* 문자열 내림차순으로 배치하기.swift */,
+				416F85BA28F6ECB3003F1F8B /* 문자열 다루기 기본.swift */,
 			);
 			path = "LV1 - Programmers Algorithm";
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			files = (
 				416F85B928F6E608003F1F8B /* 문자열 내림차순으로 배치하기.swift in Sources */,
 				41E3BD5128F56A0400FD05D5 /* main.swift in Sources */,
+				416F85BB28F6ECB3003F1F8B /* 문자열 다루기 기본.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
