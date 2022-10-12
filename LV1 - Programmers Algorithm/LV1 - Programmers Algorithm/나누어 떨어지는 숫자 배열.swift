@@ -23,7 +23,7 @@ func solution(_ arr:[Int], _ divisor:Int) -> [Int] {
     return answer.count >= 1 ? answer : [-1]
 }
 
-// sorted 후에 filtering, array가 빈건지 확인.
+// sorted 후에 filtering, array가 빈건지 확인. // 메모리 더 많이 차지, 더느림 !!!!!!
 func solution2(_ arr:[Int], _ divisor:Int) -> [Int] {
     let array = arr.sorted().filter{ $0 % divisor == 0 }
     return  array == [] ? [-1] : array
