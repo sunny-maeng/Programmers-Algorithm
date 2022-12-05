@@ -26,7 +26,7 @@ func solution(_ n:Int64) -> Int64 {
     return Int64(answer)!
 }
 
-print(solution(118372))
+
 
 func solution2(_ n:Int64) -> Int64 {
     return Int64(String(String(n).sorted{ $0 > $1 }))!
@@ -38,6 +38,3 @@ func solution3(_ n:Int64) -> Int64 {
 
 
 let a = 1236563
-print(String(a).sorted{$0 > $1}) // ["6", "6", "5", "3", "3", "2", "1"]
-print(String(String(a).sorted{$0 > $1})) // 6653321
-

@@ -22,8 +22,10 @@ print(solution(1))
 print(solution(3))
 
 
-//내가 픽한 모범 답안 squrt를 이용. squart는 Double타입을 취하므로 다시 Int64로 바꿔주서 t에 담는다.
+//내가 픽한 모범 답안 sqrt를 이용. sqrt는 Double타입을 취하므로 다시 Int64로 바꿔주서 t에 담는다.
 func solution2 (_ n:Int64) -> Int64 {
     let t = Int64(sqrt(Double(n)))
     return t * t == n ? (t+1)*(t+1) : -1
 }
+
+
